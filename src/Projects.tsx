@@ -13,6 +13,16 @@ export default function ProjectsPage() {
       tech: ["React", "Node.js", "Express", "Socket.IO", "Web3", "MongoDB"],
     },
     {
+      title: "Pakt",
+      description:
+        "IP Licensing platform built on the Story Blockchain",
+      initials: "PK",
+      gradient: "from-red-600 to-purple-600",
+      link: "https://pakt-livid.vercel.app",
+      git_link: 'https://github.com/FizOkor/pakt',
+      tech: ["Next.js", "Tailwind CSS", "Story SDK", "Axios"],
+    },
+    {
       title: "NFT-Gen",
       description:
         "Personal NFT creator from image.",
@@ -31,16 +41,6 @@ export default function ProjectsPage() {
       link: "https://fizokor.github.io/Echo-Gear",
       git_link: 'https://github.com/FizOkor/Echo-Gear',
       tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-    },
-    {
-      title: "Fiz Learning",
-      description:
-        "Online education platform with smooth course access and user-friendly interface. Developed with React.js for optimal learning experience.",
-      initials: "FL",
-      gradient: "from-green-600 to-teal-600",
-      link: "https://fiz-learning.netlify.app",
-      git_link:'https://github.com/FizOkor/learning_app',
-      tech: ["React", "JavaScript", "CSS", "Responsive Design"],
     },
   ];
 
