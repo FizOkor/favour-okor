@@ -1,5 +1,6 @@
 import { ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { MdVerified } from "react-icons/md";
 import avatar from "./assets/fizz0_avatar.png";
 import d_arena_img from "./assets/d-arena-site.png";
 import echogear_img from "./assets/echogear-site.png";
@@ -48,7 +49,7 @@ export default function Home() {
         <main className="max-w-4xl mx-auto px-6">
           {/* === Hero Section === */}
           <section id="home" className="py-24">
-            <div className="flex justify-center mb-12">
+            <div className="flex justify-center mb-5">
               <div className="w-70 h-70 rounded-xl flex items-center justify-center border-2 border-white/10 shadow-2xl overflow-hidden">
                 <img
                   src={avatar}
@@ -58,7 +59,11 @@ export default function Home() {
               </div>
             </div>
 
-            <h1 className="text-5xl font-bold mb-4">Hey, I'm Favour Okor</h1>
+            {/* Namer and check badge */}
+            <div className="flex flex-row items-center gap-1 justify-center items-center mb-8">
+              <h1 className="text center text-xl">Favour Okor</h1>
+              <MdVerified className="h-6 w-6 text-blue-600" />
+            </div>
 
             <p className="text-white/70 text-xl leading-relaxed max-w-3xl mb-8">
               I’m a software engineer focused on building thoughtful, user-first
