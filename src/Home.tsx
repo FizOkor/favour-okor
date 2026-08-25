@@ -77,12 +77,12 @@ export default function Home() {
               creativity and code.
             </p>
 
-            <Link
+            {/* <Link
               to="/about"
               className="inline-block px-6 py-2.5 bg-white text-black font-medium rounded-md hover:bg-white/90 transition-colors"
             >
               About me
-            </Link>
+            </Link> */}
           </section>
 
           {/* === Projects Section === */}
