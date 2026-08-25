@@ -1,7 +1,7 @@
 import { ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { MdVerified } from "react-icons/md";
-import avatar from "./assets/fizz0_avatar.png";
+import fiz_avatar from "./assets/fiz-avatar.jpg";
 import d_arena_img from "./assets/d-arena-site.png";
 import echogear_img from "./assets/echogear-site.png";
 
@@ -50,9 +50,9 @@ export default function Home() {
           {/* === Hero Section === */}
           <section id="home" className="py-24">
             <div className="flex justify-center mb-5">
-              <div className="w-70 h-70 rounded-xl flex items-center justify-center border-2 border-white/10 shadow-2xl overflow-hidden">
+              <div className="w-85 h-85 rounded-xl flex items-center justify-center border-2 border-white/4 shadow-2xl overflow-hidden">
                 <img
-                  src={avatar}
+                  src={fiz_avatar}
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
