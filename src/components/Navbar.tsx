@@ -29,7 +29,7 @@ export default function Navbar() {
               to="/"
               className="text-sm font-bold hover:opacity-70 transition-opacity"
             >
-              FO
+              
             </Link>
 
             <nav className="absolute left-1/2 -translate-x-1/2 flex gap-6">
