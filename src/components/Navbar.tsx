@@ -32,7 +32,7 @@ export default function Navbar() {
               
             </Link>
 
-            <nav className="absolute left-1/2 -translate-x-1/2 flex gap-6">
+            <nav className="font-grotesk absolute left-1/2 -translate-x-1/2 flex gap-6">
               <Link
                 to="/"
                 className={`text-base hover:opacity-70 transition-opacity ${

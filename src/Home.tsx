@@ -48,9 +48,9 @@ export default function Home() {
       <div className="max-w-5xl mx-auto px-8 md:px-16 lg:px-24">
         <main className="max-w-4xl mx-auto px-6">
           {/* === Hero Section === */}
-          <section id="home" className="py-24">
+          <section id="home" className="py-26">
             <div className="flex justify-center mb-5">
-              <div className="w-85 h-85 rounded-xl flex items-center justify-center border-2 border-white/4 shadow-2xl overflow-hidden">
+              <div className="w-100 h-100 rounded-full flex items-center justify-center border-2 border-white/4 shadow-2xl overflow-hidden">
                 <img
                   src={fiz_avatar}
                   alt="Profile"
@@ -65,7 +65,7 @@ export default function Home() {
               <MdVerified className="h-6 w-6 text-blue-600" />
             </div>
 
-            <p className="text-white/70 text-xl leading-relaxed max-w-3xl mb-8">
+            <p className="text-white/70 text-wrap text-xl font-light leading-relaxed max-w-3xl mb-8">
               I’m a software engineer focused on building thoughtful, user-first
               web experiences. Lately, I’ve been working on{" "}
               <a href="https://d-arena.onrender.com/" className="underline">

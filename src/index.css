@@ -6,7 +6,7 @@
 
 body {
   /* font-family: 'Roboto Condensed Variable', sans-serif; */
-  font-family: 'Host Grotesk Variable', 'Inter', monospace;
+  font-family: 'Roboto Mono Variable', 'Host Grotesk Variable', 'Inter', monospace;
 }
 /* Updated background color to #151517 and adjusted color scheme */
 :root {
@@ -81,6 +81,7 @@ body {
 }
 
 @theme inline {
+  --font-grotesk: 'Host Grotesk Variable', monospace;
   --font-sans: var(--font-geist-mono);
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-geist-mono);

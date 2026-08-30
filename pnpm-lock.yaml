@@ -14,6 +14,9 @@ importers:
       '@fontsource-variable/roboto-condensed':
         specifier: ^5.2.8
         version: 5.2.8
+      '@fontsource-variable/roboto-mono':
+        specifier: ^5.3.0
+        version: 5.3.0
       '@fontsource/ubuntu-mono':
         specifier: ^5.2.8
         version: 5.2.8
@@ -373,6 +376,9 @@ packages:
 
   '@fontsource-variable/roboto-condensed@5.2.8':
     resolution: {integrity: sha512-aIZ2kYSoJHkTI4z8x/PRgKX6Zb9TTtSE/u+fUYeiwL+5trP9rhYYEEeNjRttaMqRgoDHcSueArdRZ43wf/i2Kw==}
+
+  '@fontsource-variable/roboto-mono@5.3.0':
+    resolution: {integrity: sha512-h5r+KY/6qy8JEOj33JgcrFO81YAnvrc1EAwMpl/EPJLb2OIvOy0/jmB5M7qs7x/uXk5JUP5Ux4LrkeOK7faHkQ==}
 
   '@fontsource/ubuntu-mono@5.2.8':
     resolution: {integrity: sha512-N4nT8+GYWWcDODVSBLU4f3PycZQH9YIF6SypDI0rti3HrLqcXFS9u6wMvAd9vx1FmjAQkYv7Ld9CZ8XYTEOD0A==}
@@ -1689,6 +1695,8 @@ snapshots:
   '@fontsource-variable/host-grotesk@5.3.0': {}
 
   '@fontsource-variable/roboto-condensed@5.2.8': {}
+
+  '@fontsource-variable/roboto-mono@5.3.0': {}
 
   '@fontsource/ubuntu-mono@5.2.8': {}
 
